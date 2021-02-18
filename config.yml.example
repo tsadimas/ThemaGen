@@ -1,20 +1,11 @@
 # categories
 categories:
-  arch:
-    size: 4
-    select: 1
-  class:
-    size: 3
-    select: 1
-  gen:
-    size: 3
-    select: 1
-  meth:
-    size: 3
-    select: 1
-  req:
-    size: 4
-    select: 1
+  history:
+    size: 5
+    select: 2
+  maths:
+    size: 5
+    select: 2
 # mail settings
 mail:
     host: 'mail.server.com'
