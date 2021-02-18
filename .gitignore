@@ -1,0 +1,7 @@
+*.log
+*.txt
+files/*.md
+files/*.pdf
+.vscode/
+config.yml
+plots/

@@ -1,0 +1,28 @@
+# categories
+categories:
+  arch:
+    size: 4
+    select: 1
+  class:
+    size: 3
+    select: 1
+  gen:
+    size: 3
+    select: 1
+  meth:
+    size: 3
+    select: 1
+  req:
+    size: 4
+    select: 1
+# mail settings
+mail:
+    host: 'mail.server.com'
+    port: 000
+    sender_email: 'user@mail.com'
+    password: 'password'
+#messages settings
+messages:
+    subject: "Θέματα μαθήματος Μέθοδοι και Εργαλεία Σχεδίασης και Ανάπτυξης Πληροφοριακών Συστημάτων"
+    body : "Παρακαλείστε να απαντήσετε στη φόρμα https://test.link "
+
