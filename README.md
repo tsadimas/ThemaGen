@@ -1,6 +1,4 @@
-<img align="left" src="https://icons-for-free.com/iconfiles/png/512/horoscope+virgo+zodiac+zodiac+sign+icon-1320197016609151497.png" alt="drawing" height="50"/>
-
-# ΠάρΘέΝΕ - Πάρε Θέματα να Έχεις
+# ThemaGen - ThemaGenerator
 
 ## Διαδικασία
 * Δημιουργία ενός αρχείου με usernames φοιτητών (users.txt)
