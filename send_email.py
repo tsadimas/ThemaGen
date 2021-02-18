@@ -24,7 +24,6 @@ subject = cfg['messages']['subject']
 body =cfg['messages']['body']
 sender_email = cfg['mail']['sender_email']
 print(f" Receiver {sys.argv[1]}")
-#receiver_email = "tsadimas@hua.gr"
 receiver_email = sys.argv[1]
 password = cfg['mail']['password']
 

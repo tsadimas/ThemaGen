@@ -40,7 +40,7 @@ python make_tests.py $(cat users.txt| tr '\n' ' ')
 ```bash
 ./send_emails.sh
 ```
-Το συγκεκριμένο script ψάχνει τον κατάλογο images και για όσα pdf βρει, σχηματίζει το email με βάση το όνομα του pdf αρχείου και την κατάληξη "@hua.gr" και τα στέλνει.
+Το συγκεκριμένο script ψάχνει τον κατάλογο images και για όσα pdf βρει, σχηματίζει το email με βάση το όνομα του pdf αρχείου και την κατάληξη "@domain.com" και τα στέλνει.
 * αν θέλετε μπορείτε να τρέξετε την εντολή
 ```bash
 python3 plot.py logs/<logfilename>
