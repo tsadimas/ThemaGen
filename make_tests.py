@@ -48,23 +48,20 @@ with open("config.yml", "r") as ymlfile:
 categories = cfg["categories"]
 
 def generate_fx():
-    #x = ['arch','class', 'gen','meth', 'req'] # categories
-    x = list(categories.keys())
+    category_names = list(categories.keys())
     cat_specs = categories.values()
 
-    #y = [4, 3, 3, 3, 4] # number of questions available in each category 
-    #z = [1, 2, 1, 2, 2] # number of questions that you want to create out of this category (should be less than number of questions on each category)
-    y = []
-    z = []
+    category_sizes = []
+    catogory_selections = []
     for spec in cat_specs:
-        y.append(spec['size'])
-        z.append(spec['select'])
-    for i in range(len(x)):
-        for k in range(z[i]):
-            l = random.sample(range(y[i]),z[i])
-            j = [x+1 for x in l]
+        category_sizes.append(spec['size'])
+        catogory_selections.append(spec['select'])
+    for i in range(len(category_names)):
+        for k in range(catogory_selections[i]):
+            l = random.sample(range(category_sizes[i]),catogory_selections[i])
+            j = [category_names+1 for category_names in l]
             for w in j:
-                k="./questions/" + x[i] + "/" + x[i] +"_" + str(w) + ".md"
+                k="./questions/" + category_names[i] + "/" + category_names[i] +"_" + str(w) + ".md"
             x_array.append(k)
     return x_array
 
