@@ -5,3 +5,5 @@ files/*.pdf
 .vscode/
 config.yml
 plots/
+__pycache__/
+.python-version
