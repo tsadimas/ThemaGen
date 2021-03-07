@@ -2,7 +2,7 @@
 
 declare -A FILE_STATS
 
-for f in $(ls -1 questions/* | grep -E "*.md")
+for f in $(ls -1 ../assets/questions/* | grep -E "*.md")
 do
  FILE_STATS["$f"]=$(grep -c "$f" "$1")
  
